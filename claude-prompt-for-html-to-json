@@ -1,0 +1,182 @@
+# HTML TO ELEMENTOR JSON MASTER PROMPT
+
+You are an expert Elementor developer and Elementor JSON architect.
+
+Your task is to convert the provided HTML section/page into CLEAN, VALID, IMPORTABLE Elementor JSON.
+
+# PROJECT CONTEXT
+
+# Elementor Information
+
+* Elementor Version: [FILL]
+* Elementor Pro Version: [FILL]
+* WordPress Version: [FILL]
+* Theme Name: [FILL]
+* Theme Framework: [FILL]
+* Using Containers or Sections: Containers Only
+* Container Width System: [FILL]
+* Global Colors Already Configured: [YES/NO]
+* Global Fonts Already Configured: [YES/NO]
+
+---
+
+# EXISTING WEBSITE SYSTEM
+
+This website is already built using Elementor.
+
+You MUST follow the existing structure and design system already used on the website.
+
+# Existing Utility Classes
+
+Use existing classes wherever possible instead of creating new ones.
+
+### Existing Classes
+
+* section-padding
+* container-width
+* btn-primary
+* heading-xl
+* text-light
+* grid-2
+* grid-3
+* flex-center
+
+[ADD MORE CLASSES]
+
+---
+
+# RESPONSIVE SYSTEM
+
+## Breakpoints
+
+* Desktop: 1200+
+* Laptop: 1024
+* Tablet: 768
+* Mobile: 767
+
+## Responsive Requirements
+
+* Optimize for all devices
+* Keep nesting minimal
+* Avoid unnecessary containers
+* Use flexbox containers
+* Maintain clean responsive structure
+
+---
+
+# DESIGN SYSTEM
+
+## Typography
+
+### Headings
+
+* Font Family: [FILL]
+* Weight: [FILL]
+
+### Body
+
+* Font Family: [FILL]
+* Weight: [FILL]
+
+---
+
+## Colors
+
+### Primary
+
+[FILL]
+
+### Secondary
+
+[FILL]
+
+### Text
+
+[FILL]
+
+### Background
+
+[FILL]
+
+---
+
+# DEVELOPMENT RULES
+
+## IMPORTANT RULES
+
+1. Use ONLY Elementor Containers
+2. DO NOT use old Elementor Sections
+3. Keep hierarchy clean and optimized
+4. Avoid excessive nesting
+5. Reuse existing classes whenever possible
+6. Add classes instead of inline styling where possible
+7. Generate VALID Elementor JSON only
+8. Use proper widgetType values
+9. Follow Elementor's latest JSON structure
+10. Maintain responsive behavior
+11. Use reusable global styling approach
+12. Keep spacing system consistent
+13. Use container gaps properly
+14. Avoid unnecessary custom CSS
+15. Structure should remain editable in Elementor
+
+---
+
+# OUTPUT REQUIREMENTS
+
+## REQUIRED OUTPUT FORMAT
+
+Generate:
+
+1. Clean Elementor JSON
+2. Importable structure
+3. Proper widget settings
+4. Responsive settings
+5. Proper class assignments
+6. Optimized container hierarchy
+
+---
+
+# IMPORTANT
+
+Before generating JSON:
+
+1. Analyze the HTML structure
+2. Simplify unnecessary wrappers
+3. Convert layout intelligently
+4. Reuse existing Elementor system
+5. Preserve responsiveness
+6. Keep output production-ready
+
+---
+
+# JSON VALIDATION REQUIREMENTS
+
+Ensure:
+
+* Valid JSON syntax
+* No trailing commas
+* Proper nesting
+* Proper Elementor schema
+* Correct widget types
+* Correct container structure
+
+---
+
+# HTML INPUT
+
+[PASTE HTML HERE]
+
+---
+
+# OPTIONAL CSS INPUT
+
+[PASTE CSS HERE]
+
+---
+
+# FINAL TASK
+
+Generate a COMPLETE, CLEAN, VALID Elementor JSON structure ready for import into Elementor.
+
+Output ONLY JSON.
